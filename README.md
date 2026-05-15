@@ -19,17 +19,10 @@ Actualmente enfocado en proyectos y progresión dentro de 42.
 </p>
 
 <p align="center">
-  <strong>42 Profile Card</strong>
-</p>
-
-<p align="center">
   <a href="https://badge.mediaplus.ma/" target="_blank" rel="noreferrer">
     <img src="https://badge.mediaplus.ma/starryblue/jose-car" alt="jose-car 42 stats starryblue" />
   </a>
 </p>
-
-- Fallback perfil: [profile.intra.42.fr/users/jose-car](https://profile.intra.42.fr/users/jose-car)
-
 
 ## 🚀 Proyectos Destacados
 
