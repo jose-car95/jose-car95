@@ -12,6 +12,14 @@ Enfoque principal en **C** y **Python**, trabajando a diario con **Git/GitHub** 
 Actualmente enfocado en proyectos y progresión dentro de 42.
 
 <p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:0891b2,100:22c55e&height=140&section=header&text=42%20Network&fontColor=ffffff&fontSize=34&animation=fadeIn"
+    alt="42 network decorative background"
+    width="100%"
+  />
+</p>
+
+<p align="center">
   <a href="https://profile.intra.42.fr/users/jose-car" target="_blank" rel="noreferrer">
     <img
       src="https://badge.mediaplus.ma/darkblue/jose-car"
@@ -20,7 +28,6 @@ Actualmente enfocado en proyectos y progresión dentro de 42.
   </a>
 </p>
 
-- Perfil 42 (fallback): [profile.intra.42.fr/users/jose-car](https://profile.intra.42.fr/users/jose-car)
 
 ## 🚀 Proyectos Destacados
 
