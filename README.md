@@ -47,20 +47,8 @@ Domino el uso de modelos de lenguaje como herramientas reales: automatización, 
 ## 🎓 42 Network
 
 <div align="center">
-  <a href="https://badge.mediaplus.ma/" target="_blank" rel="noreferrer">
-    <img src="https://badge.mediaplus.ma/starryblue/jose-car" alt="jose-car 42 stats" />
-  </a>
+  <img src="https://badge.mediaplus.ma/starryblue/jose-car?ium=off" alt="jose-car 42 stats" />
 </div>
-
----
-
-## 🚀 Proyectos Destacados
-
-| Proyecto | Descripción | Lenguaje |
-|----------|-------------|----------|
-| [a_maze_ing](https://github.com/jose-car95/a_maze_ing) | Generador y visualizador de laberintos con arquitectura limpia | Python |
-| [push_swap](https://github.com/jose-car95/push_swap) | Ordenación con estructuras de datos y optimización de operaciones | C |
-| [libft](https://github.com/jose-car95/libft) | Biblioteca base: memoria, strings y utilidades | C |
 
 ---
 
