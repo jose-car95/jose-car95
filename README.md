@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&height=60&lines=Hola%2C+soy+Jos%C3%A9+Carlos+%F0%9F%91%8B;Developer+%40+42+Network;Clean+code.+Real+systems.+AI+tools." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&height=60&lines=Hey%2C+I%27m+Jos%C3%A9+Carlos+%F0%9F%91%8B;Developer+%40+42+Network;Clean+code.+Real+systems.+AI+tools." alt="Typing SVG" />
 
 </div>
 
@@ -13,13 +13,13 @@ class Developer:
     web      = ["HTML", "CSS", "JavaScript"]
     school   = "42 Network"
     ai_tools = ["Claude Code", "OpenCode", "Codex"]  # terminal & agents
-    focus    = "Código limpio, sistemas bien pensados"
-    motto    = "Entiende la máquina. Escribe para humanos."
+    focus    = "Clean code, well-thought systems"
+    motto    = "Understand the machine. Write for humans."
 ```
 
 ---
 
-## 🛠 Tecnologías
+## 🛠 Technologies
 
 <div align="center">
 
@@ -29,7 +29,7 @@ class Developer:
 
 ---
 
-## 🤖 IA & Agentes
+## 🤖 AI & Agents
 
 <div align="center">
 
@@ -39,8 +39,8 @@ class Developer:
 
 </div>
 
-Trabajo con agentes de IA en terminal como parte de mi flujo diario de desarrollo.
-Domino el uso de modelos de lenguaje como herramientas reales: automatización, revisión de código y construcción de agentes.
+I work with AI agents in the terminal as part of my daily development workflow.
+I use language models as real tools: automation, code review, and agent building.
 
 ---
 
