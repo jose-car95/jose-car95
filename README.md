@@ -25,7 +25,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,git,linux,vscode,pycharm&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,wordpress,git,linux,vscode,pycharm&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -51,7 +51,7 @@ I use language models as real tools: automation, code review, and agent building
 
 <div align="center">
 
-[![Design Tools](https://skillicons.dev/icons?i=figma,ps,ai,pr,ae,xd,wordpress,blender&theme=dark)](https://skillicons.dev)
+[![Design Tools](https://skillicons.dev/icons?i=figma,ps,ai,pr,ae,xd,blender&theme=dark)](https://skillicons.dev)
 
 </div>
 
