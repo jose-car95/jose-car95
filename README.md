@@ -17,6 +17,8 @@ class Developer:
     motto    = "Understand the machine. Write for humans."
 ```
 
+Self-taught mindset, forged at 42. I care about understanding things at a low level and building software that's simple, intentional, and built to last. Currently exploring how AI tools fit into real development workflows — not as a shortcut, but as a craft.
+
 ---
 
 ## 🛠 Technologies
