@@ -47,6 +47,23 @@ I use language models as real tools: automation, code review, and agent building
 
 ---
 
+## 🎨 Design & Creative
+
+<div align="center">
+
+[![Design Tools](https://skillicons.dev/icons?i=figma,ps,ai,pr,ae,xd,wordpress,blender&theme=dark)](https://skillicons.dev)
+
+</div>
+
+<div align="center">
+
+![SketchUp](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white)
+![Cinema 4D](https://img.shields.io/badge/Cinema%204D-011A6A?style=for-the-badge&logo=cinema4d&logoColor=white)
+
+</div>
+
+---
+
 ## 🎓 42 Network
 
 <div align="center">
