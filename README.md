@@ -38,8 +38,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 <div align="center">
 
 [![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,wordpress,git,linux,vscode,pycharm&theme=dark)](https://skillicons.dev)
-
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+<img src="https://cdn.simpleicons.org/cursor/ffffff" height="48" width="48" alt="Cursor" />
 
 </div>
 
