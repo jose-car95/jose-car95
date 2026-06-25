@@ -55,16 +55,8 @@ Domino el uso de modelos de lenguaje como herramientas reales: automatización, 
 ---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jose-car95&theme=tokyo-night&hide_border=true&color=8b5cf6&line=8b5cf6&point=ffffff" alt="Activity graph" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jose-car95&show_icons=true&theme=tokyonight&hide_border=true&icon_color=8b5cf6&title_color=8b5cf6" height="150" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jose-car95&layout=compact&theme=tokyonight&hide_border=true&title_color=8b5cf6" height="150" alt="Top langs" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jose-car95/jose-car95/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---
