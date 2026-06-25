@@ -21,6 +21,16 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 ---
 
+## 🎓 42 Network
+
+<div align="center">
+  <a href="https://github.com/oakoudad/badge42">
+    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" />
+  </a>
+</div>
+
+---
+
 ## 🛠 Technologies
 
 <div align="center">
@@ -53,16 +63,6 @@ I use language models as real tools: automation, code review, and agent building
 
 [![Design Tools](https://skillicons.dev/icons?i=figma,ps,ai,pr,ae,xd,blender&theme=dark)](https://skillicons.dev)
 
-</div>
-
----
-
-## 🎓 42 Network
-
-<div align="center">
-  <a href="https://github.com/oakoudad/badge42">
-    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" />
-  </a>
 </div>
 
 ---
