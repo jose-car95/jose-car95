@@ -50,7 +50,7 @@ I use language models as real tools: automation, code review, and agent building
 
 <div align="center">
   <a href="https://github.com/oakoudad/badge42">
-    <img src="https://badge.mediaplus.ma/darkblue/jose-car" alt="jose-car's 42 stats" />
+    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" />
   </a>
 </div>
 

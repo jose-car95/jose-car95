@@ -1,0 +1,30 @@
+name: Update 42 Badge
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download 42 badge
+        run: |
+          mkdir -p assets
+          curl -L "https://badge.mediaplus.ma/darkblue/jose-car" -o assets/42badge.svg
+
+      - name: Commit badge
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets/42badge.svg
+          git diff --staged --quiet || git commit -m "update 42 badge"
+          git push
