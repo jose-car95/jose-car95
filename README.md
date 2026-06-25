@@ -94,6 +94,5 @@ I use language models as real tools: automation, code review, and agent building
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jos%C3%A9-carlos-garc%C3%ADa-bohigas-74736b216/)
 [![Email](https://img.shields.io/badge/Email-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josecgb95@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-8b5cf6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jose-car95)
 
 </div>
