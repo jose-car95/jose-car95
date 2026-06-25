@@ -39,6 +39,8 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 [![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,wordpress,git,linux,vscode,pycharm&theme=dark)](https://skillicons.dev)
 
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+
 </div>
 
 ---
@@ -47,7 +49,6 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
 
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenCode](https://img.shields.io/badge/OpenCode-0f0f0f?style=for-the-badge&logo=openai&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -66,6 +67,16 @@ I use language models as real tools: automation, code review, and agent building
 [![Design Tools](https://skillicons.dev/icons?i=figma,ps,ai,pr,ae,xd,blender&theme=dark)](https://skillicons.dev)
 
 </div>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [call_me_maybe](https://github.com/jose-car95/call_me_maybe) | Natural language → structured function calls using a small LLM with constrained decoding | Python |
+| [A-Maze-ing](https://github.com/jose-car95/A-Maze-ing) | Maze generator and visualizer with clean, maintainable architecture | Python |
+| [push_swap](https://github.com/jose-car95/push_swap) | Two-stack sorting algorithm optimized for the minimum number of operations | C |
 
 ---
 
