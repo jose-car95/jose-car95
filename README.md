@@ -25,7 +25,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,git,linux,vscode&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,python,bash,html,css,js,git,linux,vscode,pycharm&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -35,6 +35,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
 
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenCode](https://img.shields.io/badge/OpenCode-0f0f0f?style=for-the-badge&logo=openai&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white)
