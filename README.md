@@ -12,13 +12,13 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Sobre mí
 
-Desarrollador en formación enfocado en construir una base técnica sólida en **C** y **Python**.
-Me interesa crear software claro, mantenible y bien estructurado.
-Con conocimientos previos en desarrollo web: **HTML, CSS y JavaScript**.
+Desarrollador con base sólida en **C** y **Python**, formado en el entorno exigente de **42 Network**.
+Me enfoco en escribir código limpio, eficiente y bien estructurado.
+Con conocimientos en desarrollo web (**HTML, CSS, JavaScript**) y pasión por entender cómo funcionan las cosas por dentro.
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Tech Stack
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Tecnologías
 
 <div align="center">
 
