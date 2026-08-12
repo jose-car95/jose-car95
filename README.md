@@ -27,7 +27,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
   <a href="https://github.com/oakoudad/badge42">
-    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" width="100%" />
+    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" width="80%" />
   </a>
 </div>
 
