@@ -27,7 +27,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 
 <div align="center">
   <a href="https://github.com/oakoudad/badge42">
-    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" width="80%" />
+    <img src="./assets/42badge.svg" alt="jose-car's 42 stats" />
   </a>
 </div>
 
@@ -82,8 +82,8 @@ I use language models as real tools: automation, code review, and agent building
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./assets/github-stats.svg" height="150" alt="GitHub stats" />
-  <img src="./assets/top-langs.svg" height="150" alt="Top langs" />
+  <img src="./assets/github-stats.svg" height="195" alt="GitHub stats" />
+  <img src="./assets/top-langs.svg" height="195" alt="Top langs" />
 </div>
 
 ---
