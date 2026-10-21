@@ -1,12 +1,18 @@
 name: Update 42 Badge
 
+# The badge provider (badge.mediaplus.ma) is unreliable: sometimes it returns
+# an empty body or an HTML error page. We only replace assets/42badge.svg when
+# the download is clearly a real profile card; otherwise we keep the last good
+# badge and finish successfully (with a warning) so no failure email is sent.
+
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "15 6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: false
 
 jobs:
   update-badge:
@@ -17,34 +23,46 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Download and validate 42 badge
+        id: download
         shell: bash
         run: |
-          set -euo pipefail
+          set -uo pipefail
           url="https://badge.mediaplus.ma/darkblue/jose-car"
           tmp="$(mktemp)"
           trap 'rm -f "$tmp"' EXIT
+          echo "valid=false" >> "$GITHUB_OUTPUT"
 
-          if ! curl --fail --location --silent --show-error --retry 3 "$url" -o "$tmp"; then
-            echo "::warning::42 badge provider could not be reached; keeping the existing badge and skipping this update."
+          if ! curl --fail --location --silent --show-error --retry 3 --max-time 60 "$url" -o "$tmp"; then
+            echo "::warning::42 badge provider unreachable; keeping the existing badge."
             exit 0
           fi
 
-          if [[ ! -s "$tmp" ]]; then
-            echo "::warning::42 badge provider returned an empty file; keeping the existing badge and skipping this update."
+          size=$(stat -c %s "$tmp")
+          # A real card is ~1 MB (it embeds images); error pages are a few KB.
+          if (( size < 20000 )); then
+            echo "::warning::42 badge too small (${size} bytes); keeping the existing badge."
             exit 0
           fi
-
-          if ! grep -Eq '<svg([[:space:]>])' "$tmp"; then
-            echo "::warning::42 badge provider did not return a valid SVG; keeping the existing badge and skipping this update."
+          # Must be an SVG document from the first byte, not HTML that contains an <svg> icon.
+          if ! head -c 200 "$tmp" | tr -d '\n\r' | sed 's/^[[:space:]]*//' | grep -Eq '^(<\?xml[^>]*>[[:space:]]*)?<svg[[:space:]>]'; then
+            echo "::warning::42 badge is not an SVG document; keeping the existing badge."
+            exit 0
+          fi
+          if ! grep -q 'jose-car' "$tmp"; then
+            echo "::warning::42 badge does not contain the expected login; keeping the existing badge."
             exit 0
           fi
 
           install -m 0644 "$tmp" assets/42badge.svg
+          echo "valid=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit badge
+        if: steps.download.outputs.valid == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add assets/42badge.svg
-          git diff --staged --quiet || git commit -m "update 42 badge"
+          git diff --staged --quiet && exit 0
+          git commit -m "update 42 badge"
+          git pull --rebase origin main
           git push

@@ -26,7 +26,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 ## 🎓 42 Network
 
 <div align="center">
-  <img src="https://1337-readme-xi.vercel.app/api/profile?dark=true&login=jose-car&cursus=42cursus" alt="42 Network profile stats for jose-car" />
+  <img src="./assets/42badge.svg" alt="42 Network profile stats for jose-car" />
 </div>
 
 ---
