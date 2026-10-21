@@ -16,10 +16,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download 42 badge
+      - name: Download and validate 42 badge
+        shell: bash
         run: |
-          mkdir -p assets
-          curl -L "https://badge.mediaplus.ma/darkblue/jose-car" -o assets/42badge.svg
+          set -euo pipefail
+          url="https://badge.mediaplus.ma/darkblue/jose-car"
+          tmp="$(mktemp)"
+          trap 'rm -f "$tmp"' EXIT
+
+          curl --fail --location --silent --show-error --retry 3 "$url" -o "$tmp"
+
+          if [[ ! -s "$tmp" ]]; then
+            echo "::error::42 badge download returned an empty file; keeping the existing badge."
+            exit 1
+          fi
+
+          if ! grep -Eq '<svg([[:space:]>])' "$tmp"; then
+            echo "::error::Downloaded content is not an SVG; keeping the existing badge."
+            head -c 300 "$tmp" || true
+            exit 1
+          fi
+
+          install -m 0644 "$tmp" assets/42badge.svg
 
       - name: Commit badge
         run: |
