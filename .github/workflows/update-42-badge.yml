@@ -24,7 +24,10 @@ jobs:
           tmp="$(mktemp)"
           trap 'rm -f "$tmp"' EXIT
 
-          curl --fail --location --silent --show-error --retry 3 "$url" -o "$tmp"
+          if ! curl --fail --location --silent --show-error --retry 3 "$url" -o "$tmp"; then
+            echo "::warning::42 badge provider could not be reached; keeping the existing badge and skipping this update."
+            exit 0
+          fi
 
           if [[ ! -s "$tmp" ]]; then
             echo "::warning::42 badge provider returned an empty file; keeping the existing badge and skipping this update."
