@@ -26,7 +26,7 @@ Self-taught mindset, forged at 42. I care about understanding things at a low le
 ## 🎓 42 Network
 
 <div align="center">
-  <a href="https://github.com/oakoudad/badge42">
+  <a href="https://profile.intra.42.fr/users/jose-car">
     <img src="https://42term.vercel.app/api/widget/student/jose-car?theme=dark" alt="jose-car's 42 stats" />
   </a>
 </div>
