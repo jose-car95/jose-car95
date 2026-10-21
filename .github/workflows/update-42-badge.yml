@@ -27,14 +27,13 @@ jobs:
           curl --fail --location --silent --show-error --retry 3 "$url" -o "$tmp"
 
           if [[ ! -s "$tmp" ]]; then
-            echo "::error::42 badge download returned an empty file; keeping the existing badge."
-            exit 1
+            echo "::warning::42 badge provider returned an empty file; keeping the existing badge and skipping this update."
+            exit 0
           fi
 
           if ! grep -Eq '<svg([[:space:]>])' "$tmp"; then
-            echo "::error::Downloaded content is not an SVG; keeping the existing badge."
-            head -c 300 "$tmp" || true
-            exit 1
+            echo "::warning::42 badge provider did not return a valid SVG; keeping the existing badge and skipping this update."
+            exit 0
           fi
 
           install -m 0644 "$tmp" assets/42badge.svg
